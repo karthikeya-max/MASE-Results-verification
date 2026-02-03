@@ -1,2 +1,8 @@
-# MASE-Results-verification
-R scripts to verify MASE calculations following Hyndman’s definition, including construction of the in-sample methods and out-sample methods with basic checks on example time series.
+## MASE verification (R)
+
+This repository contains R scripts to verify the computation of
+Mean Absolute Scaled Error (MASE) as defined by Hyndman.
+
+The implementation follows the methods described in the original paper
+and reproduces MASE values using multiple forecasting approaches on
+example time series.
